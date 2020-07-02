@@ -1,0 +1,45 @@
+
+h1 {
+    font-family: Eurostile;
+    font-weight: bold;
+    font-size: 80px;
+    position: relative;
+    margin-top: 15%;
+    text-align: center; 
+    color: white;
+    z-index: 1;
+     
+}
+
+h2 {
+    font-family: Eurostile;
+    font-weight: normal;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index:1;
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.footerclass {
+
+    position:fixed;
+    bottom:30%;
+    right:0%;
+    text-align: center;
+    width:100%;
+    height:100px;
+    font-family: Eurostile;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+    opacity: 45%;
+}
