@@ -1,45 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=VT323';
 
-h1 {
-    font-family: Eurostile;
-    font-weight: bold;
-    font-size: 80px;
-    position: relative;
-    margin-top: 15%;
-    text-align: center; 
-    color: white;
-    z-index: 1;
-     
+$light-grey: #e0e2f4;
+$grey: #aaaaaa;
+$blue: #0414a7;
+
+$base-font-size: 20px;
+$font-stack: 'VT323', monospace;
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a { color: $light-grey; }
+
+body,
+p { font: normal #{$base-font-size}/1.25rem $font-stack; }
+h1 { font: normal 2.75rem/1.05em $font-stack; }
+h2 { font: normal 2.25rem/1.25em $font-stack; }
+h3 { font: lighter 1.5rem/1.25em $font-stack; }
+h4 { font: lighter 1.125rem/1.2222222em $font-stack; }
+
+body { background: $blue; }
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 640px;
 }
 
-h2 {
-    font-family: Eurostile;
-    font-weight: normal;
-    font-size: 40px;
-    position: relative;
+.bsod {
+  padding-top: 10%;
+  
+  .neg {
     text-align: center;
-    color: white;
-    z-index:1;
-    line-height: 0;
-}
-
-img {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.footerclass {
-
-    position:fixed;
-    bottom:30%;
-    right:0%;
+    color: $blue;
+    
+    .bg {
+      background: $grey;
+      padding: 0 15px 2px 13px;
+    }
+  }
+  .title { margin-bottom: 50px; }
+  .nav {
+    margin-top: 35px;
     text-align: center;
-    width:100%;
-    height:100px;
-    font-family: Eurostile;
-    font-weight: normal;
-    font-size: 28px;
-    color: white;
-    opacity: 45%;
+    
+    .link {
+      text-decoration: none;
+      padding: 0 9px 2px 8px;
+      
+      &:hover,
+      &:focus {
+        background: $grey;
+        color: $blue;
+      }
+    }
+  }
 }
+
