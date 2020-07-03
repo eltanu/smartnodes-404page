@@ -1,1 +1,0 @@
-# smartnodes-404page
