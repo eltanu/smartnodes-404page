@@ -13,7 +13,7 @@ h2,
 h3,
 h4,
 p,
-a { color: $light-grey; }
+a { color: #e0e2f4; }
 
 body,
 p { font: normal #{$base-font-size}/1.25rem $font-stack; }
@@ -22,7 +22,7 @@ h2 { font: normal 2.25rem/1.25em $font-stack; }
 h3 { font: lighter 1.5rem/1.25em $font-stack; }
 h4 { font: lighter 1.125rem/1.2222222em $font-stack; }
 
-body { background: $blue; }
+body { background: #0414a7; }
 
 .container {
   width: 90%;
@@ -35,7 +35,7 @@ body { background: $blue; }
   
   .neg {
     text-align: center;
-    color: $blue;
+    color: #0414a7;
     
     .bg {
       background: $grey;
@@ -53,8 +53,8 @@ body { background: $blue; }
       
       &:hover,
       &:focus {
-        background: $grey;
-        color: $blue;
+        background: #aaaaaa;
+        color: #0414a7;
       }
     }
   }
